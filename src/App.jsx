@@ -40,9 +40,9 @@ const App = () => {
   };
 
   const themeStyles = {
+        wine: { bg: '#2d0a0a', text: '#ffffff', accent: '#e6b8af', border: 'rgba(230, 184, 175, 0.2)', sub: '#b09590', name: 'ROYAL WINE' },
     gold: { bg: '#fffaf5', text: '#2d1b10', accent: '#d4af37', border: 'rgba(45, 27, 16, 0.15)', sub: '#8a766a', name: 'LUXURY GOLD' },
     dark: { bg: '#111111', text: '#ffffff', accent: '#d4af37', border: 'rgba(255, 255, 255, 0.1)', sub: '#888', name: 'MIDNIGHT PRO' },
-    wine: { bg: '#2d0a0a', text: '#ffffff', accent: '#e6b8af', border: 'rgba(230, 184, 175, 0.2)', sub: '#b09590', name: 'ROYAL WINE' }
   };
 
   const currentStyle = themeStyles[theme];
